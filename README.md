@@ -31,20 +31,8 @@ A simple full-stack Student Management system built using:
 ---
 
 ## 📂 Project Structure
-student-manager/
-│
-├── client/
-│ ├── index.html
-│ ├── style.css
-│ └── app.js
-│
-├── server/
-│ ├── db.js
-│ ├── server.js
-│ └── models/
-│ └── Student.js
-│
-├── package.json
+<img width="160" height="334" alt="github rep pic" src="https://github.com/user-attachments/assets/d31eb83c-09e9-4747-8bf3-28c14cc16d5a" />
+
 
 
 
