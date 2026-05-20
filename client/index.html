@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Student Manager</h1>
+
+  <!-- Add Student Form -->
+  <div class="form-container">
+
+    <input 
+      type="text" 
+      id="name" 
+      placeholder="Enter student name"
+    >
+
+    <input 
+      type="number" 
+      id="age" 
+      placeholder="Enter student age"
+    >
+
+    <button onclick="addStudent()">
+      Add Student
+    </button>
+
+    <button onclick="getStudents()">
+      Load Students
+    </button>
+
+  </div>
+
+  <!-- Student List -->
+  <ul id="students"></ul>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
