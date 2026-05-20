@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://aafaqahmed365_db_user:<your-db-password>@cluster0.18utylz.mongodb.net/?appName=Cluster0')
+mongoose.connect('Your Database Connection string obtained through MongoDB Atlas')
 .then(() => console.log('MongoDB Connected'))
 .catch(err => console.log(err));
 
