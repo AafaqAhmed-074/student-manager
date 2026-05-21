@@ -11,8 +11,10 @@ A simple full-stack Student Management system built using:
 
 ## 🚀 Features
 
-- Add student
+- Add students
 - View students
+- Update student
+- Delete students
 - Store data in MongoDB
 - REST API integration
 - Simple UI
@@ -73,7 +75,6 @@ http://localhost:5000
 
 
 💡 **Future Improvements**
-- Delete student feature
 - Edit student feature
 - Authentication system
 - Better UI (React upgrade)
