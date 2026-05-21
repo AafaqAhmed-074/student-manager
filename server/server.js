@@ -40,6 +40,29 @@ app.post('/students', async (req, res) => {
     });
 });
 
+app.delete('/students/:id', async (req, res) => {
+
+    await Student.findByIdAndDelete(req.params.id);
+
+    res.json({
+        message: 'Student Deleted'
+    });
+});
+
+app.put('/students/:id', async (req, res) => {
+
+    await Student.findByIdAndUpdate(
+        req.params.id,
+        {
+            name: req.body.name,
+            age: req.body.age
+        }
+    );
+
+    res.json({
+        message: 'Student Updated'
+    });
+});
 
 // Home Route
 app.get('/', (req, res) => {
